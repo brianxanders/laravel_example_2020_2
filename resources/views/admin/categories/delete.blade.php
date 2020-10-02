@@ -36,8 +36,7 @@
             <label for="name">
                 Categorie naam
             </label>
-            <p class="text-danger border border-dark">{{$category->name}}</p>
-            <input type="hidden" class="form-control" name="name"
+            <input type="text" disabled="disabled" class="form-control" name="name"
                    aria-describedby="categorienameHelp" value="{{$category->name}}">
         </div>
         <button type="submit"  class="btn-danger">Delete</button>
