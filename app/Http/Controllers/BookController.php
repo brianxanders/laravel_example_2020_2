@@ -9,6 +9,16 @@ use App\Category;
 
 class BookController extends Controller
 {
+
+    /** Set permission methods */
+    public function __construct()
+    {
+        $this->middleware('auth');
+        $this->middleware('permission:create category',['only'=>['create','store']]);
+        $this->middleware('permission:edit category',['only'=>['edit', 'update']]);
+        $this->middleware('permission:delete category',['only'=>['delete','destroy']]);
+    }
+
     /**
      * Display a listing of the resource.
      *
