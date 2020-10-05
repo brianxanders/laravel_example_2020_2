@@ -17,11 +17,15 @@ Route::get('/', function () {
     return view('Layouts.layout');
 });
 
-Route::get('categories/{category}/delete', 'CategoryController@delete')->name('categories.delete');
-Route::resource('/categories', 'CategoryController');
+Route::group(['middleware'=>['role:sales|admin']],function (){
+    Route::get('categories/{category}/delete', 'CategoryController@delete')->name('categories.delete');
+    Route::resource('/categories', 'CategoryController');
 
-Route::get('books/{book}/delete', 'BookController@delete')->name('books.delete');
-Route::resource('/books', 'bookController');
+    Route::get('books/{book}/delete', 'BookController@delete')->name('books.delete');
+    Route::resource('/books', 'bookController');
+
+});
+
 
 Auth::routes();
 
@@ -29,4 +33,4 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/', 'HomeController@index')->name('home');
