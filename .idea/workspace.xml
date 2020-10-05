@@ -22,37 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cee739a9-cda0-4fca-a698-d4e0ab0c3e4c" name="Default Changelist" comment="composer updated&#10;an permisions added to categories and books(errow with loading pages must be fixed first)">
-      <change afterPath="$PROJECT_DIR$/.idea/laravel-basis-project-ole-en-tim.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/errors/403.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="cee739a9-cda0-4fca-a698-d4e0ab0c3e4c" name="Default Changelist" comment="added amin menu&#10;&#10;edited composer files&#10;&#10;added 403.blade.php&#10;&#10;edited categories delete function (can not delete whil books in side categorie)&#10;&#10;layout.blade.php connected to all pages&#10;&#10;permission tested and working">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BookController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BookController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/categories/delete.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/categories/delete.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,8 +63,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601631359645</updated>
-      <workItem from="1601631360702" duration="6785000" />
+      <workItem from="1601631360702" duration="8249000" />
     </task>
+    <task id="LOCAL-00001" summary="added amin menu&#10;&#10;edited composer files&#10;&#10;added 403.blade.php&#10;&#10;edited categories delete function (can not delete whil books in side categorie)&#10;&#10;layout.blade.php connected to all pages&#10;&#10;permission tested and working">
+      <created>1601639457395</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601639457395</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,29 +91,30 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="composer updated&#10;an permisions added to categories and books(errow with loading pages must be fixed first)" />
-    <option name="LAST_COMMIT_MESSAGE" value="composer updated&#10;an permisions added to categories and books(errow with loading pages must be fixed first)" />
+    <MESSAGE value="added amin menu&#10;&#10;edited composer files&#10;&#10;added 403.blade.php&#10;&#10;edited categories delete function (can not delete whil books in side categorie)&#10;&#10;layout.blade.php connected to all pages&#10;&#10;permission tested and working" />
+    <option name="LAST_COMMIT_MESSAGE" value="added amin menu&#10;&#10;edited composer files&#10;&#10;added 403.blade.php&#10;&#10;edited categories delete function (can not delete whil books in side categorie)&#10;&#10;layout.blade.php connected to all pages&#10;&#10;permission tested and working" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2469" y="187" key="FileChooserDialogImpl" timestamp="1601638617180">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
     <state x="2469" y="187" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601638617180" />
-    <state width="1493" height="217" key="GridCell.Tab.0.bottom" timestamp="1601631484453">
+    <state width="1493" height="217" key="GridCell.Tab.0.bottom" timestamp="1601640827106">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="217" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601631484453" />
-    <state width="1493" height="217" key="GridCell.Tab.0.center" timestamp="1601631484453">
+    <state width="1493" height="217" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601640827106" />
+    <state width="1493" height="217" key="GridCell.Tab.0.center" timestamp="1601640827105">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="217" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601631484453" />
-    <state width="1493" height="217" key="GridCell.Tab.0.left" timestamp="1601631484453">
+    <state width="1493" height="217" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601640827105" />
+    <state width="1493" height="217" key="GridCell.Tab.0.left" timestamp="1601640827105">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="217" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601631484453" />
-    <state width="1493" height="217" key="GridCell.Tab.0.right" timestamp="1601631484453">
+    <state width="1493" height="217" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601640827105" />
+    <state width="1493" height="217" key="GridCell.Tab.0.right" timestamp="1601640827105">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="217" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601631484453" />
+    <state width="1493" height="217" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601640827105" />
     <state x="2524" y="351" key="NewPhpFileDialog" timestamp="1601636788440">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
@@ -143,6 +123,10 @@
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
     <state x="2466" y="69" key="RollbackChangesDialog/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601635372325" />
+    <state x="2281" y="161" key="Vcs.Push.Dialog.v2" timestamp="1601639467184">
+      <screen x="1920" y="0" width="1536" height="864" />
+    </state>
+    <state x="2281" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601639467184" />
     <state x="2351" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1601638763110">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
