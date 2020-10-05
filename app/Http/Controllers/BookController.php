@@ -78,7 +78,8 @@ class BookController extends Controller
      */
     public function edit(Book $book)
     {
-        //
+        $categories = Category::all();
+        return view('admin.books.edit', compact('book', 'categories'));
     }
 
     /**
