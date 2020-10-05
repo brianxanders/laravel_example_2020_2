@@ -22,15 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ed1e3a5-e8b3-423e-a5d5-788ed6d4a721" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/BookUpdateRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/laravel-basis-project-ole-en-tim.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel-basis-project-ole-en-tim.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BookController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BookController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/BookSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/BookSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/books/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/books/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/books/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/books/show.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="5ed1e3a5-e8b3-423e-a5d5-788ed6d4a721" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -211,6 +203,7 @@
       <workItem from="1601626784183" duration="948000" />
       <workItem from="1601629382587" duration="869000" />
       <workItem from="1601654235422" duration="139000" />
+      <workItem from="1601654518787" duration="76000" />
     </task>
     <task id="LOCAL-00001" summary="Category aded">
       <created>1601299606293</created>
@@ -324,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601625678497</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Roles added(error now)">
+      <created>1601654556462</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1601654556462</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,10 +357,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Roles added(error now)" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="583" y="1" key="CommitChangelistDialog2" timestamp="1601373687905">
+    <state x="583" y="1" key="CommitChangelistDialog2" timestamp="1601654552557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="583" y="1" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1601373687905" />
+    <state x="583" y="1" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1601654552557" />
     <state x="2067" y="69" key="DiffContextDialog" timestamp="1601301628050">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
@@ -390,11 +390,11 @@
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
     <state x="2524" y="351" key="NewPhpFileDialog/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601543385286" />
-    <state x="451" y="194" key="Vcs.Push.Dialog.v2" timestamp="1601650546374">
+    <state x="451" y="194" key="Vcs.Push.Dialog.v2" timestamp="1601654587007">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="2281" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601625683622" />
-    <state x="451" y="194" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601650546374" />
+    <state x="451" y="194" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601654587007" />
     <state x="2508" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601299112193">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
