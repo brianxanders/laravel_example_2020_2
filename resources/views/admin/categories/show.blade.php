@@ -24,8 +24,7 @@
     </div>
     <div class="card-body">
         <h2 class="card-title">{{ $category->name }}</h2>
-        <p class="card-text">Gemaakt: {{$category->created_at->format('d-m-Y')}}</p>
-        <p class="card-text">Bijgewerkt: {{$category->updated_at->format('d-m-Y')}}</p>
+        <p class="card-text"><span class="text-info">Gemaakt: </span>{{$category->created_at->format('d-m-Y')}}</p>
+        <p class="card-text"><span class="text-info">Bijgewerkt: </span>{{$category->updated_at->format('d-m-Y')}}</p>
     </div>
-
 @endsection
