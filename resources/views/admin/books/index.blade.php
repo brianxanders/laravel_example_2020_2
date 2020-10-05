@@ -9,12 +9,12 @@
         @endif
 
     <nav class="nav">
-        <ul class="nav nav-tab">
+        <ul class="nav nav-tabs">
             <li class="nav-item">
                 <a class="nav-link  active" href="{{ route('books.index') }}">Index</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{{ route('books.create') }}">
+                <a class="nav-link" href="{{ route('books.create') }}">Create
                 </a>
             </li>
         </ul>
@@ -36,8 +36,7 @@
             <tr>
                 <td scope="row">{{ $book->id }}</td>
                 <td>{{ $book->title }}</td>
-                <td></td>
-                <td></td>
+                <td>{{ $book->category->name }}</td>
                 <td><a href="{{ route('books.show', ['book' => $book->id]) }}">Details</a></td>
                 <td><a href="{{ route('books.edit', ['book' => $book->id]) }}">Edit</a></td>
                 <td><a href="{{ route('books.delete', ['book' => $book->id]) }}">Delete</a></td>

@@ -22,27 +22,27 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cee739a9-cda0-4fca-a698-d4e0ab0c3e4c" name="Default Changelist" comment="Ready for pull">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2-10-2020_10_55__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2-10-2020_10_55__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5ed1e3a5-e8b3-423e-a5d5-788ed6d4a721" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BookController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BookController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/books/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/books/edit.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="Tim2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -155,46 +155,187 @@
       <path value="$PROJECT_DIR$/vendor/symfony/debug" />
     </include_path>
   </component>
-  <component name="ProjectId" id="1iJgy5LKmyH8f5EgSh3kQKDsAYu" />
+  <component name="ProjectId" id="1i8m0rT8sPBfaYyYhBYL8V1ReYY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProjectOT" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../workshop" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\ProjectOT\resources\views\admin" />
+      <recent name="C:\laragon\www\ProjectOT\resources\views\admin\category" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cee739a9-cda0-4fca-a698-d4e0ab0c3e4c" name="Default Changelist" comment="" />
-      <created>1601631359645</created>
+      <changelist id="5ed1e3a5-e8b3-423e-a5d5-788ed6d4a721" name="Default Changelist" comment="" />
+      <created>1601297373714</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1601631359645</updated>
-      <workItem from="1601631360702" duration="8249000" />
-      <workItem from="1601883846814" duration="1238000" />
+      <updated>1601297373714</updated>
+      <workItem from="1601297374734" duration="2257000" />
+      <workItem from="1601301643232" duration="1589000" />
+      <workItem from="1601368698114" duration="3205000" />
+      <workItem from="1601457446688" duration="12053000" />
+      <workItem from="1601541346152" duration="3503000" />
+      <workItem from="1601623282120" duration="2835000" />
+      <workItem from="1601626784183" duration="948000" />
+      <workItem from="1601629382587" duration="869000" />
+      <workItem from="1601654235422" duration="139000" />
+      <workItem from="1601654518787" duration="76000" />
+      <workItem from="1601885459944" duration="567000" />
     </task>
-    <task id="LOCAL-00001" summary="added amin menu&#10;&#10;edited composer files&#10;&#10;added 403.blade.php&#10;&#10;edited categories delete function (can not delete whil books in side categorie)&#10;&#10;layout.blade.php connected to all pages&#10;&#10;permission tested and working">
-      <created>1601639457395</created>
+    <task id="LOCAL-00001" summary="Category aded">
+      <created>1601299606293</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1601639457395</updated>
+      <updated>1601299606293</updated>
     </task>
-    <task id="LOCAL-00002" summary="Ready for pull">
-      <created>1601883897494</created>
+    <task id="LOCAL-00002" summary="Spatie installation including permission.php RoleAndPermissionSeeder.php&#10;and more">
+      <created>1601301719929</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1601883897495</updated>
+      <updated>1601301719929</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Spatie installation including permission.php RoleAndPermissionSeeder.php&#10;and more">
+      <created>1601301738354</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601301738354</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Branch ole1">
+      <created>1601302139569</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601302139569</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fix spatie permission provider">
+      <created>1601371675216</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601371675216</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fix spatie permission provider">
+      <created>1601371684545</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1601371684545</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fix spatie permission provider">
+      <created>1601373136683</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1601373136683</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Fix spatie permission provider">
+      <created>1601373689095</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1601373689095</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Fix spatie permission provider">
+      <created>1601382455674</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1601382455674</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Fix spatie permission provider">
+      <created>1601382677074</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1601382677074</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Categories.index&#10;categories.create&#10;categories.edit&#10;categories.show&#10;categories.delete&#10;web.php routing in progres">
+      <created>1601459389626</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1601459389626</updated>
+    </task>
+    <task id="LOCAL-00012" summary=".Categories.index works&#10;.Some small changes to layout.blade.php">
+      <created>1601460671517</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1601460671517</updated>
+    </task>
+    <task id="LOCAL-00013" summary="All Category pages will work now &#10;changes in the navbar showing the categories and books">
+      <created>1601478709079</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1601478709080</updated>
+    </task>
+    <task id="LOCAL-00014" summary="All Category pages will work now &#10;changes in the navbar showing the categories and books">
+      <created>1601543828932</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1601543828932</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Destory/delete functie toegevoegd (werkend)">
+      <created>1601557124835</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1601557124835</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Roles added(error now)">
+      <created>1601625678497</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1601625678497</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Roles added(error now)">
+      <created>1601654556462</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1601654556462</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Roles added(error now)">
+      <created>1601885529853</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1601885529853</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,47 +354,89 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="composer updated&#10;an permisions added to categories and books(errow with loading pages must be fixed first)" />
-    <MESSAGE value="added amin menu&#10;&#10;edited composer files&#10;&#10;added 403.blade.php&#10;&#10;edited categories delete function (can not delete whil books in side categorie)&#10;&#10;layout.blade.php connected to all pages&#10;&#10;permission tested and working" />
-    <MESSAGE value="Ready for pull" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ready for pull" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Category aded" />
+    <MESSAGE value="Spatie installation including permission.php RoleAndPermissionSeeder.php&#10;and more" />
+    <MESSAGE value="Branch ole1" />
+    <MESSAGE value="Fix spatie permission provider" />
+    <MESSAGE value="Categories.index&#10;categories.create&#10;categories.edit&#10;categories.show&#10;categories.delete&#10;web.php routing in progres" />
+    <MESSAGE value=".Categories.index works&#10;.Some small changes to layout.blade.php" />
+    <MESSAGE value="All Category pages will work now &#10;changes in the navbar showing the categories and books" />
+    <MESSAGE value="Create and store functions added for books" />
+    <MESSAGE value="Destory/delete functie toegevoegd (werkend)" />
+    <MESSAGE value="Roles added(error now)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Roles added(error now)" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2469" y="187" key="FileChooserDialogImpl" timestamp="1601638617180">
+    <state x="583" y="1" key="CommitChangelistDialog2" timestamp="1601885525658">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="583" y="1" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1601885525658" />
+    <state x="2067" y="69" key="DiffContextDialog" timestamp="1601301628050">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
-    <state x="2469" y="187" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601638617180" />
-    <state width="1493" height="217" key="GridCell.Tab.0.bottom" timestamp="1601640827106">
+    <state x="2067" y="69" key="DiffContextDialog/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601301628050" />
+    <state x="686" y="225" key="FileChooserDialogImpl" timestamp="1601654280205">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2469" y="187" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601556076396" />
+    <state x="686" y="225" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601654280205" />
+    <state width="1493" height="217" key="GridCell.Tab.0.bottom" timestamp="1601301633410">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="217" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601640827106" />
-    <state width="1493" height="217" key="GridCell.Tab.0.center" timestamp="1601640827105">
+    <state width="1493" height="217" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601301633410" />
+    <state width="1493" height="217" key="GridCell.Tab.0.center" timestamp="1601301633410">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="217" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601640827105" />
-    <state width="1493" height="217" key="GridCell.Tab.0.left" timestamp="1601640827105">
+    <state width="1493" height="217" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601301633410" />
+    <state width="1493" height="217" key="GridCell.Tab.0.left" timestamp="1601301633410">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="217" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601640827105" />
-    <state width="1493" height="217" key="GridCell.Tab.0.right" timestamp="1601640827105">
+    <state width="1493" height="217" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601301633410" />
+    <state width="1493" height="217" key="GridCell.Tab.0.right" timestamp="1601301633410">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="217" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601640827105" />
-    <state x="2524" y="351" key="NewPhpFileDialog" timestamp="1601636788440">
+    <state width="1493" height="217" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601301633410" />
+    <state x="2524" y="351" key="NewPhpFileDialog" timestamp="1601543385286">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
-    <state x="2524" y="351" key="NewPhpFileDialog/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601636788440" />
-    <state x="2466" y="69" key="RollbackChangesDialog" timestamp="1601635372325">
+    <state x="2524" y="351" key="NewPhpFileDialog/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601543385286" />
+    <state x="451" y="194" key="Vcs.Push.Dialog.v2" timestamp="1601654587007">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2281" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601625683622" />
+    <state x="451" y="194" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601654587007" />
+    <state x="2508" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601299112193">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
-    <state x="2466" y="69" key="RollbackChangesDialog/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601635372325" />
-    <state x="2281" y="161" key="Vcs.Push.Dialog.v2" timestamp="1601639467184">
+    <state x="2508" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601299112193" />
+    <state x="1053" y="100" width="774" height="847" key="dock-window-1" timestamp="1601651820797">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1053" y="100" width="774" height="847" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1601651820797" />
+    <state x="1053" y="162" key="git4idea.branch.GitSmartOperationDialog" timestamp="1601629850218">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1053" y="162" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601629850218" />
+    <state x="2345" y="197" key="run.anything.popup" timestamp="1601477476558">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
-    <state x="2281" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601639467184" />
-    <state x="2351" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1601638763110">
-      <screen x="1920" y="0" width="1536" height="864" />
+    <state x="2345" y="197" key="run.anything.popup/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601477476558" />
+    <state x="539" y="218" width="840" height="817" key="search.everywhere.popup" timestamp="1601652331523">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="2351" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601638763110" />
+    <state x="2658" y="164" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601627681756" />
+    <state x="539" y="218" width="840" height="817" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601652331523" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/database/factories/BookFactory.php</url>
+          <line>4</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

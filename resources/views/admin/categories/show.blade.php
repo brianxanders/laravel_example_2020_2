@@ -1,7 +1,7 @@
 @extends('layouts.layout')
 
 @section('content')
-    <h1 class="mt-5">Categories/Detais</h1>
+    <h1 class="mt-5">Categories/Details</h1>
 
     <nav class="nav">
         <ul class="nav nav-tabs">
@@ -12,7 +12,7 @@
                 <a class="nav-link" href="{{route('categories.create')}}">Create</a>
             </li>
             <li>
-                <a class="nav-link active">Detais</a>
+                <a class="nav-link active">Details</a>
             </li>
         </ul>
     </nav>
