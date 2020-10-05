@@ -58,7 +58,7 @@
                             Categoriën Admin
                         </a>
                         <a class="dropdown-item" href="{{route('books.index')}}">
-                            Product Admin
+                            Boeken Admin
                         </a>
                     </div>
                 </div>

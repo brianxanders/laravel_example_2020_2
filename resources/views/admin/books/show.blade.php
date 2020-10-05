@@ -27,6 +27,8 @@
         <p class="card-text">{{ $book->description }}</p>
         <p class="card-text">{{ $book->isbn }}</p>
         <p class="card-text">{{ $book->category->name }}</p>
+        <p class="card-text">Gemaakt: {{$category->created_at->format('d-m-Y')}}</p>
+        <p class="card-text">Bijgewerkt: {{$category->updated_at->format('d-m-Y')}}</>
     </div>
 
 @endsection

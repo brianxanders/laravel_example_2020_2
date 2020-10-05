@@ -23,8 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ed1e3a5-e8b3-423e-a5d5-788ed6d4a721" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/BookFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/BookFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BookController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BookController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/books/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/books/edit.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -208,7 +207,7 @@
       <workItem from="1601629382587" duration="869000" />
       <workItem from="1601654235422" duration="139000" />
       <workItem from="1601654518787" duration="76000" />
-      <workItem from="1601885459944" duration="3250000" />
+      <workItem from="1601885459944" duration="567000" />
     </task>
     <task id="LOCAL-00001" summary="Category aded">
       <created>1601299606293</created>
@@ -336,14 +335,7 @@
       <option name="project" value="LOCAL" />
       <updated>1601885529853</updated>
     </task>
-    <task id="LOCAL-00019" summary="Edited bookcontroller and edit.blade.php">
-      <created>1601886081955</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1601886081955</updated>
-    </task>
-    <option name="localTasksCounter" value="20" />
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,14 +365,13 @@
     <MESSAGE value="Create and store functions added for books" />
     <MESSAGE value="Destory/delete functie toegevoegd (werkend)" />
     <MESSAGE value="Roles added(error now)" />
-    <MESSAGE value="Edited bookcontroller and edit.blade.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edited bookcontroller and edit.blade.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="Roles added(error now)" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="583" y="1" key="CommitChangelistDialog2" timestamp="1601886077341">
+    <state x="583" y="1" key="CommitChangelistDialog2" timestamp="1601885525658">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="583" y="1" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1601886077341" />
+    <state x="583" y="1" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1601885525658" />
     <state x="2067" y="69" key="DiffContextDialog" timestamp="1601301628050">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
@@ -410,11 +401,11 @@
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
     <state x="2524" y="351" key="NewPhpFileDialog/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601543385286" />
-    <state x="451" y="194" key="Vcs.Push.Dialog.v2" timestamp="1601886086951">
+    <state x="451" y="194" key="Vcs.Push.Dialog.v2" timestamp="1601654587007">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="2281" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601625683622" />
-    <state x="451" y="194" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601886086951" />
+    <state x="451" y="194" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601654587007" />
     <state x="2508" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601299112193">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
