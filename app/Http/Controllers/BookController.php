@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Book;
 use App\Http\Requests\BookStoreRequest;
+use App\Http\Requests\BookUpdateRequest;
 use Illuminate\Http\Request;
 use App\Category;
 
@@ -89,9 +90,16 @@ class BookController extends Controller
      * @param  \App\Book  $book
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Book $book)
+    public function update(BookUpdateRequest $request, Book $book)
     {
-        //
+        $book->title = $request->title;
+        $book->description = $request->description;
+        $book->isbn = $request->isbn;
+        $book->category_id = $request->category_id;
+        $book->save();
+
+        return redirect()->route('books.index')->with('message', 'Boek geupdate');
+
     }
 
     /**
