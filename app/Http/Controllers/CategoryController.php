@@ -110,7 +110,7 @@ class CategoryController extends Controller
             $category->delete();
         }catch (Throwable $e){
             report($e);
-            return redirect()->route('categories.index')->with('wrong', 'categorie kon niet worden verwijderd omdat er nog producten in stonden');
+            return redirect()->route('categories.index')->with('wrong', 'categorie kon niet worden verwijderd omdat er nog boeken in stonden');
         }
         return redirect()->route('categories.index')->with('message', 'categorie verwijderd');
     }
