@@ -22,9 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ed1e3a5-e8b3-423e-a5d5-788ed6d4a721" name="Default Changelist" comment="[0oijgert">
+    <list default="true" id="5ed1e3a5-e8b3-423e-a5d5-788ed6d4a721" name="Default Changelist" comment="admin.categories.show.blade.php edited&#10;admin.books.show.blade.php edited">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5-10-2020_11_30__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5-10-2020_11_30__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/books/delete.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/books/delete.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +39,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Devellopment" />
+        <entry key="$PROJECT_DIR$" value="Tim2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -167,7 +168,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../workshop" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -179,7 +180,6 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\laragon\www\laravel-basis-project-ole-en-tim" />
       <recent name="C:\laragon\www\ProjectOT\resources\views\admin" />
       <recent name="C:\laragon\www\ProjectOT\resources\views\admin\category" />
     </key>
@@ -209,6 +209,7 @@
       <workItem from="1601654235422" duration="139000" />
       <workItem from="1601654518787" duration="76000" />
       <workItem from="1601885459944" duration="567000" />
+      <workItem from="1601986397481" duration="799000" />
     </task>
     <task id="LOCAL-00001" summary="Category aded">
       <created>1601299606293</created>
@@ -392,11 +393,11 @@
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
     <state x="2067" y="69" key="DiffContextDialog/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601301628050" />
-    <state x="686" y="225" key="FileChooserDialogImpl" timestamp="1601654280205">
+    <state x="686" y="225" key="FileChooserDialogImpl" timestamp="1601892805924">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="2469" y="187" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601556076396" />
-    <state x="686" y="225" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601654280205" />
+    <state x="686" y="225" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601892805924" />
     <state width="1493" height="217" key="GridCell.Tab.0.bottom" timestamp="1601301633410">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
@@ -417,11 +418,11 @@
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
     <state x="2524" y="351" key="NewPhpFileDialog/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601543385286" />
-    <state x="2281" y="161" key="Vcs.Push.Dialog.v2" timestamp="1601888475917">
-      <screen x="1920" y="0" width="1536" height="864" />
+    <state x="451" y="194" key="Vcs.Push.Dialog.v2" timestamp="1601890122702">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="2281" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601888475917" />
-    <state x="451" y="194" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601654587007" />
+    <state x="451" y="194" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601890122702" />
     <state x="2508" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601299112193">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
@@ -438,11 +439,11 @@
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
     <state x="2345" y="197" key="run.anything.popup/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601477476558" />
-    <state x="2658" y="164" width="672" height="678" key="search.everywhere.popup" timestamp="1601889283264">
-      <screen x="1920" y="0" width="1536" height="864" />
+    <state x="539" y="218" width="840" height="817" key="search.everywhere.popup" timestamp="1601904316885">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="2658" y="164" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601889283264" />
-    <state x="539" y="218" width="840" height="817" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601652331523" />
+    <state x="539" y="218" width="840" height="817" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601904316885" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
