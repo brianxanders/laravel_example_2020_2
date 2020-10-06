@@ -5,3 +5,4 @@
     <div class="alert alert-danger">
         {{$exception->getMessage()}}
     </div>
+@endsection
