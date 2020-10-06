@@ -52,7 +52,7 @@ class CategoryController extends Controller
         $category = new Category();
         $category->name = $request->name;
         $category->save();
-        return redirect()->route('categories.index');
+        return redirect()->route('categories.index')->with('message', 'categorie toegevoegd');
     }
 
     /**
