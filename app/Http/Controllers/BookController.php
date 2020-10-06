@@ -4,11 +4,22 @@ namespace App\Http\Controllers;
 
 use App\Book;
 use App\Http\Requests\BookStoreRequest;
+use App\Http\Requests\BookUpdateRequest;
 use Illuminate\Http\Request;
 use App\Category;
 
 class BookController extends Controller
 {
+
+    /** Set permission methods */
+    public function __construct()
+    {
+        $this->middleware('auth');
+        $this->middleware('permission:create category',['only'=>['create','store']]);
+        $this->middleware('permission:edit category',['only'=>['edit', 'update']]);
+        $this->middleware('permission:delete category',['only'=>['delete','destroy']]);
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -57,7 +68,7 @@ class BookController extends Controller
      */
     public function show(Book $book)
     {
-        //
+        return view('admin.books.show', compact('book'));
     }
 
     /**
@@ -68,7 +79,8 @@ class BookController extends Controller
      */
     public function edit(Book $book)
     {
-        //
+        $categories = Category::all();
+        return view('admin.books.edit', compact('book', 'categories'));
     }
 
     /**
@@ -78,9 +90,16 @@ class BookController extends Controller
      * @param  \App\Book  $book
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Book $book)
+    public function update(BookUpdateRequest $request, Book $book)
     {
-        //
+        $book->title = $request->title;
+        $book->description = $request->description;
+        $book->isbn = $request->isbn;
+        $book->category_id = $request->category_id;
+        $book->save();
+
+        return redirect()->route('books.index')->with('message', 'Boek geupdate');
+
     }
 
     /**

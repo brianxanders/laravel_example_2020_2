@@ -6,9 +6,20 @@ use App\Category;
 use App\Http\Requests\CategoryStoreRequest;
 use App\Http\Requests\CategoryUpdateRequest;
 use Illuminate\Http\Request;
+use Throwable;
 
 class CategoryController extends Controller
 {
+
+    /** Set permission methods */
+    public function __construct()
+    {
+        $this->middleware('auth');
+        $this->middleware('permission:create category',['only'=>['create','store']]);
+        $this->middleware('permission:edit category',['only'=>['edit', 'update']]);
+        $this->middleware('permission:delete category',['only'=>['delete','destroy']]);
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -95,7 +106,12 @@ class CategoryController extends Controller
 
     public function destroy(Category $category)
     {
-        $category->delete();
+        try {
+            $category->delete();
+        }catch (Throwable $e){
+            report($e);
+            return redirect()->route('categories.index')->with('wrong', 'categorie kon niet worden verwijderd omdat er nog producten in stonden');
+        }
         return redirect()->route('categories.index')->with('message', 'categorie verwijderd');
     }
 }
